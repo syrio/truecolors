@@ -91,3 +91,6 @@ $ ->
     
   app = new window.AppRouter()
   Backbone.history.start({pushState: true})
+  
+  if (/index\.html/).test(window.location.pathname)
+      app.index()

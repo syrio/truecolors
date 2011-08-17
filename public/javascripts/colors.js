@@ -127,8 +127,11 @@
       return AppRouter;
     })();
     app = new window.AppRouter();
-    return Backbone.history.start({
+    Backbone.history.start({
       pushState: true
     });
+    if (/index\.html/.test(window.location.pathname)) {
+      return app.index();
+    }
   });
 }).call(this);

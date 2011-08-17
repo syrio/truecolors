@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MuseoSlab500';
-  src: url("/fonts/museo_slab_500-webfont.ttf") format("truetype");
+  src: url("../fonts/museo_slab_500-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
