@@ -130,7 +130,7 @@
     Backbone.history.start({
       pushState: true
     });
-    if (/index\.html|github/.test(window.location.pathname)) {
+    if (/index\.html|github/.test(window.location.href)) {
       return app.index();
     }
   });

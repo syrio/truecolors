@@ -92,5 +92,5 @@ $ ->
   app = new window.AppRouter()
   Backbone.history.start({pushState: true})
   
-  if (/index\.html|github/).test(window.location.pathname)
+  if (/index\.html|github/).test(window.location.href)
       app.index()
