@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Jasmine Test Runner</title>
+  <link rel="stylesheet" type="text/css" href="lib/jasmine-1.0.2/jasmine.css">
+  <script type="text/javascript" src="lib/jasmine-1.0.2/jasmine.js"></script>
+  <script type="text/javascript" src="lib/jasmine-1.0.2/jasmine-html.js"></script>
+  <script type="text/javascript" src="lib/jasmine-jquery-1.2.0.js"></script>
+  <script type="text/javascript" src="lib/sinon-1.1.1.js"></script>
+  <script type="text/javascript" src="lib/jasmine-sinon.js"></script>
+
+  <!-- include source files here... -->
+  <script src="../public/javascripts/lib/1.jquery.min.js"></script>
+  <script src="../public/javascripts/lib/underscore.js"></script>
+  <script src="../public/javascripts/lib/backbone.js"></script>
+  <script src="../public/javascripts/lib/backbone-localstorage.js"></script>
+  <script src="../public/javascripts/colors.js"></script>
+
+  <!-- include spec files here... -->
+  <script type="text/javascript" src="spec/models/color_spec.js"></script>
+  <script type="text/javascript" src="spec/collections/colors_spec.js"></script>
+  <script type="text/javascript" src="spec/views/color_spec.js"></script>
+  <script type="text/javascript" src="spec/views/colors_spec.js"></script>
+  <script type="text/javascript" src="spec/routers/app_spec.js"></script>
+
+</head>
+<body>
+
+  <div id='jasmine-fixtures'>
+    
+  </div>
+
+  <script type="text/javascript">
+    jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+    jasmine.getEnv().execute();
+  </script>
+
+  
+</body>
+</html>

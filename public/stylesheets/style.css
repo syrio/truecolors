@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'MuseoSlab500';
+  src: url("/fonts/museo_slab_500-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background-image: url('../images/fade_to_gray.png');
+  font-family: 'MuseoSlab500';
+}
+
+h1 {
+  text-align: center;
+}
+
+.colors li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+  width: 180px;
+  height: 60px;
+  margin: 0 10px 20px 30px;
+}
+
+.black span {
+  
+}
+
+.white span {
+  
+}
+
+.center {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  /* if the user gave a non-existing color as input, this color will be viewed */
+  color: #555;
+  line-height: 36px;
+  -moz-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+#insert {
+  width: 250px;
+  text-align: center;
+  font-size: 15px;
+  font-family: inherit;
+  line-height: 1.4em;
+  border: 0;
+  padding: 6px;
+  margin-bottom: 25px;
+  border: 1px solid #999999;
+}
+
+#insert::-webkit-input-placeholder  { font-size: 20px; font-style: italic; }
+#insert input:-moz-placeholder { font-size: 20px; font-style: italic; }

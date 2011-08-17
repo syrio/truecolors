@@ -1,0 +1,11 @@
+{
+  "name": "truecolors",
+  "description": "An app for storing beautiful css colors",
+  "author": "Syrio",
+  "dependencies": {
+    "express": "2.4.x",
+    "jade" : "0.14.x"
+  },
+  "engine": "node >= 0.4.1"
+}
+
