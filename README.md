@@ -1,7 +1,10 @@
-#truecolors
+#Truecolors
 ================================
 
 This is a sample (and simple) Backbone.js application that lets you save your favorite html/css colors to your browser's local storage and then display them for you to see how they look with both black and white backgrounds.
+
+## Usage
+Go to the [github project page](http://syrio.github.com/truecolors/) and add colors.
 
 ## Support
 Known to work in Firefox >=5, Safari >=5, Chrome >=13
