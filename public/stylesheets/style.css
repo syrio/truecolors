@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MuseoSlab500';
-  src: url("../fonts/museo_slab_500-webfont.ttf") format("truetype");
+  src: url("/fonts/museo_slab_500-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -15,19 +15,10 @@ h1 {
 
 .colors li {
   list-style-type: none;
-  display: inline;
   float: left;
   width: 180px;
   height: 60px;
   margin: 0 10px 20px 30px;
-}
-
-.black span {
-  
-}
-
-.white span {
-  
 }
 
 .center {
@@ -49,10 +40,7 @@ h1 {
   font-size: 15px;
   font-family: inherit;
   line-height: 1.4em;
-  border: 0;
-  padding: 6px;
   margin-bottom: 25px;
-  border: 1px solid #999999;
 }
 
 #insert::-webkit-input-placeholder  { font-size: 20px; font-style: italic; }
